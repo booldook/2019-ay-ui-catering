@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul, ol, dl {
+	list-style: none;
+}
+
+img {
+	/* display: block; */
+	vertical-align: bottom;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.img {
+	width: 100%;
+}
+
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.tc {
+	text-align: center;
+}
+.btn-black {
+	background-color: #111;
+	color: #f1f1f1;
+	padding: 8px 12px;
+	border: none;
+}
+.btn-black:hover {
+	background-color: #f1f1f1;
+	color: #111;
+}
