@@ -58,8 +58,25 @@ img {
 .grey-lighter {color: #ccc;}
 .grey-white {color: #f1f1f1;}
 
+.blue-darker {color: #0a2455;}
+.blue-dark {color: #144196;}
+.blue {color: #1b5eda;}
+.blue-light {color: #5c8ae0;}
+.blue-lighter {color: #a0bef7;}
+
 
 /* 버튼세트 */
+.btn-black {
+	background-color: #111;
+	color: #f1f1f1;
+	padding: 8px 12px;
+	border: none;
+}
+.btn-black:hover {
+	background-color: #f1f1f1;
+	color: #111;
+}
+
 .btn-black {
 	background-color: #111;
 	color: #f1f1f1;
