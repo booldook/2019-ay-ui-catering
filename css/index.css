@@ -64,12 +64,29 @@ header > .nav-wrap > div:hover {
 	width: 48%;
 }
 .about-wrap img {
-	opacity: 0.8;
+	opacity: 0.7;
+}
+.about-wrap img:hover {
+	opacity: 1;
 }
 
 
 /* SECTION - MENU */
-
+.menu-wrap {
+	padding: 80px 0;
+}
+.menu-wrap > .wrap > div {
+	width: 48%;
+}
+.menu-wrap h3 {
+	text-align: left;
+}
+.menu-wrap li {
+	margin-bottom: 16px;
+}
+.menu-wrap p {
+	padding: 8px 0;
+}
 
 /* SECTION - CONTACT */
 
