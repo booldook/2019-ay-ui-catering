@@ -1,3 +1,4 @@
+/* TAG 적용 */
 * {
 	margin: 0;
 	padding: 0;
@@ -13,16 +14,31 @@ img {
 	vertical-align: bottom;
 }
 
+
+/* float, Clearfix */
 .clear:after, .clearfix:after {
 	clear: both;
 	content: "";
 	display: block;
 }
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
 
+
+/* 반응형 이미지 */
 .img {
 	width: 100%;
 }
+.mimg {
+	max-width: 100%;
+}
 
+
+/* 글자정렬 */
 .tl {
 	text-align: left;
 }
@@ -32,6 +48,18 @@ img {
 .tc {
 	text-align: center;
 }
+
+/* 글자색상 */
+.grey-black {color: #222;}
+.grey-darker {color: #444;}
+.grey-dark {color: #666;}
+.grey {color: #888;}
+.grey-light {color: #aaa;}
+.grey-lighter {color: #ccc;}
+.grey-white {color: #f1f1f1;}
+
+
+/* 버튼세트 */
 .btn-black {
 	background-color: #111;
 	color: #f1f1f1;
@@ -43,9 +71,3 @@ img {
 	color: #111;
 }
 
-.fl {
-	float: left;
-}
-.fr {
-	float: right;
-}

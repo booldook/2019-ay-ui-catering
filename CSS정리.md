@@ -64,6 +64,10 @@ border: 1px solid red;
 border-radius: 5px;
 border-radius: 50%; /* 원을 만들때 */
 
+/* 그림자와 관련된 속성 */
+/* box-shadow: 좌우 상하 그림자Blur 색상(rgba) */
+box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.5);
+
 /* 여백과 관련된 속성 */
 margin: 12px; /* 상, 우, 하, 좌 12px */
 margin: 12px 16px 20px 24px; /* 상(12px),우(16px),하(20px),좌(24px) */
