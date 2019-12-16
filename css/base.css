@@ -69,22 +69,24 @@ img {
 .btn-black {
 	background-color: #111;
 	color: #f1f1f1;
-	padding: 8px 12px;
+	padding: 12px 16px;
 	border: none;
+	cursor: pointer;
 }
 .btn-black:hover {
 	background-color: #f1f1f1;
 	color: #111;
 }
 
-.btn-black {
-	background-color: #111;
-	color: #f1f1f1;
-	padding: 8px 12px;
+.btn-white {
+	background-color: #ccc;
+	color: #333;
+	padding: 12px 16px;
 	border: none;
+	cursor: pointer;
 }
-.btn-black:hover {
-	background-color: #f1f1f1;
-	color: #111;
+.btn-white:hover {
+	background-color: #333;
+	color: #ccc
 }
 

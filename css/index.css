@@ -90,6 +90,9 @@ header > .nav-wrap > div:hover {
 }
 
 /* SECTION - CONTACT */
+.contact-wrap {
+	padding: 80px 0;
+}
 .contact-wrap input {
 	display: block;
 	width: 100%;
@@ -102,3 +105,8 @@ header > .nav-wrap > div:hover {
 }
 
 /* FOOTER */
+footer {
+	background-color: #eee;
+	text-align: center;
+	padding: 60px 0;
+}
