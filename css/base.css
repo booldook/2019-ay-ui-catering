@@ -13,8 +13,10 @@ img {
 	vertical-align: bottom;
 }
 
-.clearfix {
+.clear:after, .clearfix:after {
 	clear: both;
+	content: "";
+	display: block;
 }
 
 .img {
@@ -39,4 +41,11 @@ img {
 .btn-black:hover {
 	background-color: #f1f1f1;
 	color: #111;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
 }
