@@ -1,0 +1,16 @@
+.wrap {
+	border: 5px solid #f00;
+	max-width: 960px;
+	margin: auto;
+}
+.box {
+	width: 24%;
+	margin: 0 0.6666%;
+	float: left;
+}
+.wrap > :first-child {
+	margin-left: 0;
+}
+.wrap > :last-child {
+	margin-right: 0;
+}
