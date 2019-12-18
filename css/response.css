@@ -1,3 +1,4 @@
+/* PC */
 .wrap {
 	border: 5px solid #f00;
 	max-width: 960px;
@@ -14,3 +15,36 @@
 .wrap > :last-child {
 	margin-right: 0;
 }
+
+/* Tablet 가로 */
+@media screen and (max-width: 992px) {
+	
+}
+
+/* Tablet 세로 */
+@media screen and (max-width: 768px) {
+	.box {
+		width: 48%;
+		margin: 1%;
+	}
+	.wrap > :first-child {
+		margin-left: 1%;
+	}
+	.wrap > :last-child {
+		margin-right: 1%;
+	}
+}
+
+/* 스마트폰 가로 */
+@media screen and (max-width: 575px) {
+	.box {
+		width: 98%;
+	}
+}
+
+/* 스마트폰 세로 */
+@media screen and (max-width: 320px) {
+
+}
+
+
