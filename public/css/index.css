@@ -63,11 +63,16 @@ header > .nav-wrap > div:hover {
 .about-wrap > .wrap > div {
 	width: 48%;
 }
-.about-wrap img {
-	opacity: 0.7;
+.about-img {
+	overflow: hidden;
 }
-.about-wrap img:hover {
+.about-img img {
+	opacity: 0.7;
+	transition: all 1s;
+}
+.about-img img:hover {
 	opacity: 1;
+	transform: scale(1.1);
 }
 
 
@@ -86,6 +91,13 @@ header > .nav-wrap > div:hover {
 }
 .menu-wrap p {
 	padding: 8px 0;
+}
+.menu-img img {
+	transition: all 1s;
+}
+.menu-img img:hover {
+	opacity: 0.7;
+	transform: translateY(5%);
 }
 
 /* SECTION - CONTACT */

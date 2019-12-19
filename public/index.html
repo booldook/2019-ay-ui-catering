@@ -9,8 +9,11 @@
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="./css/base.css">
 	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/wow.min.js"></script>
+	<script>new WOW({offset: 200}).init();</script>
 </head>
 
 <body>
@@ -28,7 +31,7 @@
 
 	<!-- MAIN Banner -->
 	<main class="tc">
-		<img src="./img/hamburger.jpg" alt="메인배너" class="mimg">
+		<img src="./img/hamburger.jpg" alt="메인배너" class="mimg wow fadeIn">
 	</main>
 
 	<!-- ABOUT -->
@@ -38,14 +41,14 @@
 				<img src="./img/tablesetting2.jpg" alt="그림" class="img">
 			</div>
 			<div class="fr about-cont">
-				<h2>About Catering</h2>
-				<h3>Tradition since 1889</h3>
-				<p class="grey-darker">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+				<h2 class="wow bounceInRight" data-wow-duration="1s">About Catering</h2>
+				<h3 class="wow bounceInRight" data-wow-duration="1s">Tradition since 1889</h3>
+				<p class="grey-darker wow bounceInUp" data-wow-duration="1s">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
 					consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
 					magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
 					pariatur.We only use seasonal ingredients.</p>
-				<p class="grey-light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+				<p class="grey-light wow bounceInUp" data-wow-duration="1s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
 					anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna
 					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.</p>
@@ -57,31 +60,31 @@
 	<section class="menu-wrap">
 		<div class="wrap clear">
 			<div class="fl">
-				<h2>Our Menu</h2>
+				<h2 class="wow bounceInLeft" data-wow-duration="1s">Our Menu</h2>
 				<ul class="menus">
-					<li>
+					<li class="wow fadeInUp" data-wow-duration="1s">
 						<h3>Bread Basket</h3>
 						<p>Assortment of fresh baked fruit breads and muffins 5.50</p>
 					</li>
-					<li>
+					<li class="wow fadeInUp" data-wow-duration="1s">
 						<h3>Honey Almond Granola with Fruits</h3>
 						<p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
 					</li>
-					<li>
+					<li class="wow fadeInUp" data-wow-duration="1s">
 						<h3>Belgian Waffle</h3>
 						<p>Vanilla flavored batter with malted flour 7.50</p>
 					</li>
-					<li>
+					<li class="wow fadeInUp" data-wow-duration="1s">
 						<h3>Scrambled eggs</h3>
 						<p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
 					</li>
-					<li>
+					<li class="wow fadeInUp" data-wow-duration="1s">
 						<h3>Blueberry Pancakes</h3>
 						<p>With syrup, butter and lots of berries 8.50</p>
 					</li>
 				</ul>
 			</div>
-			<div class="fr">
+			<div class="fr menu-img">
 				<img src="./img/tablesetting.jpg" alt="사진" class="img">
 			</div>
 		</div>
@@ -90,13 +93,13 @@
 	<!-- CONTACT -->
 	<section class="contact-wrap">
 		<div class="wrap">
-			<h2 class="tl">Contact</h2>
-			<p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the
+			<h2 class="tl wow bounceInLeft">Contact</h2>
+			<p class="wow fadeInUp">We offer full-service catering for any event, large or small. We understand your needs and we will cater the
 				food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-			<h4 class="blue-light">Catering Service, 42nd Living St, 43043 New York, NY</h4>
-			<p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message
+			<h4 class="blue-light wow fadeInUp">Catering Service, 42nd Living St, 43043 New York, NY</h4>
+			<p class="wow fadeInUp">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message
 				here:</p>
-			<form action="#">
+			<form action="#" class="wow fadeIn">
 				<input type="text" placeholder="Name">
 				<input type="text" placeholder="How Many People">
 				<input type="datetime-local">
